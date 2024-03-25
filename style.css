@@ -1,0 +1,44 @@
+:root{
+    --color-white: ;
+    --color-dark1: #272727;
+    --color-dark2: #2d2d2d;
+    --color-dark3: #414141;
+    --color-dark4: #1c1c1c;
+    --color-dark5: #343434;
+    --color-verde: #191970;
+}
+*{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: var(--color-verde);
+    margin: 0;
+    padding: 0;
+}
+header{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: powderblue;    
+}
+main{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    color: powderblue;
+    gap: 2rem;
+    font-size: large;
+}
+
+.jp{
+    border-radius: 100%;
+    width: 680px;
+    margin-top: 15px;
+}
+
+.linha1{
+    background-color: powderblue;
+    height: 1px;
+}
+img{
+    
+}

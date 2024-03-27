@@ -1,15 +1,7 @@
-:root{
-    --color-white: ;
-    --color-dark1: #272727;
-    --color-dark2: #2d2d2d;
-    --color-dark3: #414141;
-    --color-dark4: #1c1c1c;
-    --color-dark5: #343434;
-    --color-verde: #191970;
-}
+
 *{
     font-family: Georgia, 'Times New Roman', Times, serif;
-    background-color: var(--color-verde);
+    background-color: #191970;
     margin: 0;
     padding: 0;
 }
@@ -22,11 +14,12 @@ header{
 main{
     display: flex;
     justify-content: center;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
     color: powderblue;
     gap: 2rem;
     font-size: large;
+    margin-bottom: 22px;
 }
 
 .jp{
@@ -39,6 +32,100 @@ main{
     background-color: powderblue;
     height: 1px;
 }
-img{
+
+.galery{
+    display:flex ;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.galery img{
+    height: 200px;
+    width: 200px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px powderblue;
+    margin-top: 15px;
     
 }
+.titulobotton{
+    text-align: center;
+    color: powderblue;
+}
+.init{
+    text-align: center;
+}
+.txt{ 
+    text-align: center;
+    
+}
+footer{
+    gap: 10px;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    color: powderblue;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 12px;
+}
+.p{
+    text-decoration: none;
+    color: powderblue;
+}
+@media screen and (max-width: 1024px){
+    hr{
+        width: 100%;
+    }
+    .jp{
+        height: 75%;
+        width: 75%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .galery{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 768px){
+    hr{
+        width: 100%;
+    }
+    .jp{
+        height: 75%;
+        width: 75%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .galery{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+
+}
+@media screen and (max-width: 576px){
+    .jp{
+        height: 75%;
+        width: 75%;
+    }
+    main{
+        display: flex;
+        flex-direction: column;
+    }
+    .galery{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+
